@@ -1,2 +1,2 @@
 #!/bin/bash
-sed s/ .*// 102-acrostic
+echo $(cut -cl | tr -d " \n")
